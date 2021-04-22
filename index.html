@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="file.css">
+	<style>
+		body{
+			background-color: #E6E6FA;
+		}
+		p{
+			color: #FA8099;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<!-- ordered list-->
+	<p style="color:green">ITF Core Team</p>
+	<ol>
+		<li>Michael</li>
+		<li>Robert</li>
+		<li>Bruce</li>
+		<li>Sergio</li>
+	</ol>
+	<hr>
+	<!-- unordered list -->
+	<p>ITF Core Team</p>
+	<ul type="circle">
+		<li>Michael</li>
+		<li>Robert</li>
+		<li>Bruce</li>
+		<li>Sergio</li>
+	</ul>
+	<hr>
+	<!-- Description List -->
+	<p>Team missions</p>
+	<dl>
+		<dt>Michael</dt>
+			<dd>-Team Lead</dd>
+		<dt>Robert</dt>
+			<dd>-Acad. Coord.</dd>
+		<dt>Bruce</dt>
+			<dd>-Tech. Coord.</dd>
+		<dt>Sergio</dt>
+			<dd>-Personal Coord.</dd>
+	</dl>
+	<!-- HTML Nested List -->
+	<hr>
+	<p>List of Countries with thier capital</p>
+	<ol>
+    	<li>Türkiye
+        	<ul>
+         		<li>Ankara</li>
+         		<dt>Karasal İklim</dt>
+        	</ul>
+    	</li>
+    	<li>Greece
+        	<ul>
+            	<li>Athens</li>
+        	</ul>
+    	</li>
+    	<li>Bulgaria
+        	<ul>
+            	<li>Sofia</li>
+        	</ul>
+    	</li>
+    	<li>RRomania
+        	<ul>
+            	<li>Bucharest</li>
+        	</ul>
+    	</li>
+    	<li>Italy
+        	<ul>
+            	<li>Roma</li>
+        	</ul>
+    	</li>
+    	<li>France
+        	<ul>
+            	<li>Paris</li>
+            		<dd>-Beautiful city</dd>
+            </ul>
+    	</li>
+	</ol>
+	<hr>
+	<!-- Table with no border -->
+	<table>
+		<tr>
+			<th>first Name</th>
+			<th>Last Name</th>
+			<th>Missions</th>
+		</tr>
+		<tr>
+			<td>Michael</td>
+			<td>Adams</td>
+			<td>Team Lead</td>
+		</tr>
+		<tr>
+			<td>Sergio</td>
+			<td>Taco</td>
+			<td>Personal Coord.</td>
+		</tr>
+	</table>
+	<hr>
+	<!-- Table with border -->
+	<table border="3" align="left">
+		<tr align="left">
+			<th>first Name</th>
+			<th>Last Name</th>
+			<th>Missions</th>
+		</tr>
+		<tr>
+			<td>Michael</td>
+			<td>Adams</td>
+			<td>Team Lead</td>
+		</tr>
+		<tr>
+			<td>Sergio</td>
+			<td>Taco</td>
+			<td>Personal Coord.</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+	<!-- Table with colspan -->
+	<table border="3">
+		<tr>
+			<th>Name</th>
+			<th colspan="3">Mobile No</th>
+		</tr>
+		<tr>
+			<td>Sergio</td>
+			<td>123456</td>
+			<td>456789</td>
+			<td>123564978</td>
+		</tr>
+	</table>
+	<hr>
+	<!-- Table with rowspan -->
+	<table border="3">
+		<tr>
+			<th>Name</th>
+			<th>Sergio</th>
+		</tr>
+		<tr>
+			<th rowspan="3">Mobile No</th>
+			<td>123456465</td>
+		</tr>
+		<tr>
+			<td>13456465</td>
+		</tr>
+		<tr>
+			<td>1234564</td>
+		</tr> 
+	</table>
+	<hr>
+	<!-- images -->
+	<img src="https://clarusway.com/wp-content/uploads/2021/03/design.jpg" alt="design.jpg" width="25%" height="25%">
+	<br>
+	<img src="https://clarusway.com/wp-content/uploads/2021/03/design.jpg" alt="design.jpg" width="300" height="200">
+	<br>
+	<img src="https://clarusway.com/wp-content/uploads/2021/03/design.jpg" alt="design.jpg" width="300" height="200" border="5">
+	<br>
+	<img src="design.jpg" alt="design.jpg" width="300" height="200" border="5">
+	<br>
+	<img src="../design.jpg" alt="design.jpg" width="300" height="200" border="5">
+	<br>
+	<img src="C:\Users\Okan\Desktop\tarnilok\design.jpg" alt="design.jpg" width="300" height="200" border="5">
+	<hr>
+	<!-- image as a link -->
+	<a href="https://www.clarusway.com" target="_blank"><img src="design.jpg" alt="clarusway webpage link" width="300" height="200" border="3"></a>
+	<hr>
+	<!-- link to an email address -->
+	<a href="mailto:sergio@clarusway.com">Send Email to Sergio</a>
+	<hr>
+	<!-- button as a link -->
+	<button onclick="document.location='https://lms.clarusway.com'">Clarusway LMS</button>
+	<hr>
+	<!-- link titles -->
+	<a href="https://lms.clarusway.com" title="Go to Clarusway LMS">Try Clarusway LMS for further e-learning</a>
+	<hr>
+	<!-- button as a link in new tab-->
+	<button onclick="window.open('https://lms.clarusway.com','_blank')">Clarusway LMS</button>
+	
+</body>
+</html>
